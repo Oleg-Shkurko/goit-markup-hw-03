@@ -1,0 +1,233 @@
+:root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --changing-text-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  color: var(--primery-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.first-logo {
+  color: var(--changing-text-color);
+}
+
+.menu-nav .link {
+  color: var(--primery-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu-nav .link-activ {
+  color: var(--changing-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--changing-text-color);
+}
+
+.menu-nav .link.current {
+  color: var(--changing-text-color);
+}
+
+.menu-address .link {
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+}
+.menu-address .link:hover,
+.menu-address .link:focus {
+  color: var(--changing-text-color);
+}
+.hero > .hero-title {
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--third-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero > .button {
+}
+
+.section > .section-qualities h3 {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section > .section-qualities p {
+  color: var(--secondary-text-color);
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.section > .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section > .section-activity h3 {
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--third-text-color);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section > .section-command h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section > .section-command p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background: #2f303a;
+  color: var(--third-text-color);
+}
+
+.footer .address {
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer .footer-logo {
+  color: var(--third-text-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--changing-text-color);
+}
+
+.footer .call b {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subscription b {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-button {
+  background: var(--changing-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-button p {
+  color: var(--third-text-color);
+  font-size: 16px;
+}
+
+.button {
+  color: var(--third-text-color);
+  background: var(--changing-text-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Portfolio */
+
+.section > .section-filter .link {
+  color: var(--primery-text-color);
+  background: var(--third-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.section .section-filter .link:hover,
+.section .section-filter .link:focus {
+  color: var(--third-text-color);
+  background: var(--changing-text-color);
+}
+
+.section > .section-group .link {
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
+
+.section > .section-group .link > h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.section > .section-group p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.section > .section-group .text {
+  color: var(--primery-text-color);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
