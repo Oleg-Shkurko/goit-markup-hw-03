@@ -12,17 +12,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="container header">
         <nav class="navigation">
           <a href="./index.html" class="logo"
             ><span class="first-logo">Web</span> Studio</a
           >
           <ul class="menu-nav list">
-            <li class="menu-list">
-              <div class="block-link">
-                <a href="./index.html" class="link-activ">Студия</a>
-              </div>
+            <li class="menu-list block-link">
+              <a href="./index.html" class="link-activ">Студия</a>
             </li>
             <li class="menu-list">
               <a href="./portfolio.html" class="link">Портфолио</a>
@@ -154,6 +152,7 @@
           <ul class="section-command list">
             <li class="command-list">
               <img
+                class="photo"
                 src="./image/product-designer.jpg"
                 alt="фото Николая Кучеренко"
                 width="270"
@@ -201,6 +200,7 @@
             </li>
             <li class="command-list">
               <img
+                class="photo"
                 src="./image/frontend-developer.jpg"
                 alt="фото Ольги Ивановой"
                 width="270"
@@ -248,6 +248,7 @@
             </li>
             <li class="command-list">
               <img
+                class="photo"
                 src="./image/marketing.jpg"
                 alt="фото Андрея Шевченко"
                 width="270"
@@ -295,6 +296,7 @@
             </li>
             <li class="command-list">
               <img
+                class="photo"
                 src="./image/ui-designer.jpg"
                 alt="фото Ивана Николаева"
                 width="270"
@@ -347,63 +349,64 @@
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients list">
-            <li class="clients-list">
+            <li class="clients-list one">
               <a href="">
                 <img
+                  class="logo-img"
                   src="./image/logo-1.svg"
                   alt="логотип первой компании"
-                  width="170"
-                  height="90"
+                  width="45"
+                  height="49"
                 />
               </a>
             </li>
-            <li class="clients-list">
+            <li class="clients-list two">
               <a href="">
                 <img
                   src="./image/logo-2.svg"
                   alt="логотип второй компании"
-                  width="170"
-                  height="90"
+                  width="40"
+                  height="52"
                 />
               </a>
             </li>
-            <li class="clients-list">
+            <li class="clients-list three">
               <a href="">
                 <img
                   src="./image/logo-3.svg"
                   alt="логотип третьей компании"
-                  width="170"
-                  height="90"
+                  width="41"
+                  height="43"
                 />
               </a>
             </li>
-            <li class="clients-list">
+            <li class="clients-list four">
               <a href="">
                 <img
                   src="./image/logo-4.svg"
                   alt="логотип четвёртой компании"
-                  width="170"
-                  height="90"
+                  width="80"
+                  height="42"
                 />
               </a>
             </li>
-            <li class="clients-list">
+            <li class="clients-list five">
               <a href="">
                 <img
                   src="./image/logo-5.svg"
                   alt="логотип пятой компании"
-                  width="170"
-                  height="90"
+                  width="59"
+                  height="47"
                 />
               </a>
             </li>
-            <li class="clients-list">
+            <li class="clients-list six">
               <a href="">
                 <img
                   src="./image/logo-6.svg"
                   alt="логотип шестой компании"
-                  width="170"
-                  height="90"
+                  width="88"
+                  height="45"
                 />
               </a>
             </li>
@@ -413,68 +416,64 @@
     </main>
     <footer class="footer">
       <div class="container footer-box">
-        <div class="address-call">
-          <div class="footer-container">
-            <a href="./index.html" class="footer-logo"
-              ><span class="first-logo">Web</span> Studio</a
-            >
-            <address class="address">
-              г. Киев, пр-т Леси Украинки, 26 <br />
-              <ul class="footer-address list">
-                <li class="address-mail">
-                  <a href="mailto:info@devstudio.com" class="link"
-                    >info@devstudio.com
-                  </a>
-                </li>
-                <li class="address-mail">
-                  <a href="tel:+380961111111" class="link"
-                    >+38 096 111 11 11
-                  </a>
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="call">
-            <b>присоединяйтесь</b>
-            <ul class="social list">
-              <li class="social-link">
-                <a href="https://www.instagram.com/">
-                  <img
-                    src="./image/instagram.svg"
-                    alt="иконка инстаграмма"
-                    width="20"
-                  />
+        <div class="footer-container">
+          <a href="./index.html" class="footer-logo"
+            ><span class="first-logo">Web</span> Studio</a
+          >
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26 <br />
+            <ul class="footer-address list">
+              <li class="address-mail">
+                <a href="mailto:info@devstudio.com" class="link"
+                  >info@devstudio.com
                 </a>
               </li>
-              <li class="social-link">
-                <a href="https://twitter.com/">
-                  <img
-                    src="./image/twitter.svg"
-                    alt="иконка твиттера"
-                    width="20"
-                  />
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="https://www.facebook.com/">
-                  <img
-                    src="./image/facebook.svg"
-                    alt="иконка фэйсбук"
-                    width="20"
-                  />
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="https://www.linkedin.com/">
-                  <img
-                    src="./image/linkedin.svg"
-                    alt="иконка Линкедин"
-                    width="20"
-                  />
-                </a>
+              <li class="address-mail">
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11 </a>
               </li>
             </ul>
-          </div>
+          </address>
+        </div>
+        <div class="call">
+          <b>присоединяйтесь</b>
+          <ul class="social-footer list">
+            <li class="social-link">
+              <a href="https://www.instagram.com/">
+                <img
+                  src="./image/instagram.svg"
+                  alt="иконка инстаграмма"
+                  width="20"
+                />
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="https://twitter.com/">
+                <img
+                  src="./image/twitter.svg"
+                  alt="иконка твиттера"
+                  width="20"
+                />
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="https://www.facebook.com/">
+                <img
+                  src="./image/facebook.svg"
+                  alt="иконка фэйсбук"
+                  width="20"
+                />
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="https://www.linkedin.com/">
+                <img
+                  src="./image/linkedin.svg"
+                  alt="иконка Линкедин"
+                  width="20"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div class="subscription">
