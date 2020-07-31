@@ -52,16 +52,17 @@ body {
 
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .top-header {
-  padding-top: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .navigation {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-right: auto;
 }
 
@@ -110,9 +111,6 @@ body {
 }
 
 .block-link {
-  display: inline-block;
-  padding-bottom: 28px;
-  border-bottom: 4px solid var(--changing-text-color);
 }
 
 .menu-nav .link:hover,
@@ -166,7 +164,7 @@ body {
 .hero {
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 294px;
+  padding-bottom: 200px;
 }
 
 .hero > .button {
@@ -225,6 +223,10 @@ body {
   padding: 25px 100px;
   margin-bottom: 30px;
   align-items: center;
+}
+
+.qualities-padding {
+  padding-top: 94px;
 }
 
 .section .section-title {
@@ -388,6 +390,10 @@ body {
 
 .clients-list:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-padding {
+  padding-top: 94px;
 }
 
 .footer {
